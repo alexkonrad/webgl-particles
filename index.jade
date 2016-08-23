@@ -4,8 +4,14 @@ html(lang="en")
 		title= Particles
 		script(
 			type="text/javascript"
+			src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r66/three.min.js"
+		)
+		script(
+			type="text/javascript"
 			src="src/particles.js"
 		)
 	body
 		h1 Particles
-		Hello
+		div(
+			id="container"
+		)
